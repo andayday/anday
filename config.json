@@ -1,0 +1,22 @@
+{
+    "server":"0.0.0.0",
+    "server_ipv6":"::",
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+	"port_password"	: {
+		"12250": "At$0715",
+		"15070": "At$0715",
+		"25120": "At$0715",
+		"15007": "At$0715"
+	},
+    "timeout":120,
+    "method":"chacha20",
+    "protocol":"auth_sha1_v4",
+    "protocol_param":"",
+    "obfs":"tls1.2_ticket_auth",
+    "obfs_param":"",
+    "redirect":"",
+    "dns_ipv6":false,
+    "fast_open":false,
+    "workers":1
+}

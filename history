@@ -1,0 +1,851 @@
+    1  wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+    2  ls
+    3  chmod u+x  shadowsocks-all.sh 
+    4  ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+    5  yum install net-tools -y 
+    6  ifconfig 
+    7  cat /etc/shadowsocks-r/config.json 
+    8  ls
+    9  cat /etc/shadowsocks-r/config.json 
+   10  wq
+   11  ls
+   12  cp /etc/shadowsocks-r/config.json ./
+   13  vim /etc/shadowsocks-r/config.json 
+   14  yum install  -y 
+   15  passwd
+   16  set -o vi 
+   17  vim /etc/shadowsocks-r/config.json 
+   18  yum install vim -y
+   19  vim /etc/shadowsocks-r/config.json 
+   20  ls
+   21  ps aux | grep "config"
+   22  netstat -apn | grep "07"
+   23  netstat -apn | grep "12250"
+   24  netstat -apn | grep "python"
+   25  python /usr/local/shadowsocks/server.py -c /etc/shadowsocks-r/config.json -d  restart 
+   26  vim /etc/shadowsocks-r/config.json
+   27  ls
+   28  vim ~/.vimrc
+   29  vim /etc/shadowsocks-r/config.json
+   30  vim ~/.bashrc 
+   31  vim /etc/shadowsocks-r/config.json
+   32  python /usr/local/shadowsocks/server.py -c /etc/shadowsocks-r/config.json -d  restart 
+   33  netstat -apn | grep "python"
+   34  ifconfig 
+   35  cat /etc/shadowsocks-r/config.json 
+   36  netstat -apn | grep "python"
+   37  iptables -L-v 
+   38  iptables -L -v 
+   39  cealr
+   40  clear
+   41  cat /etc/shadowsocks-r/config.json 
+   42  iptables -A INPUT -p tcp --dport 15070 -j ACCEPT
+   43  iptables -L -v 
+   44  yum install ufw -y 
+   45  iptables -D INPUT -p tcp --dport 15070 -j ACCEPT
+   46  iptables -L -v 
+   47  ufw status
+   48  cat /etc/shadowsocks-r/config.json 
+   49  ufw allow 15070
+   50  ufw enable
+   51  ufw status
+   52  ufw allow  15070
+   53  ufw 25120 
+   54  ufw allow  25120 
+   55  cat /etc/shadowsocks-r/config.json 
+   56  ufw allow 15007
+   57  ufw status
+   58  ufw  allow 12250 
+   59  iptables -L -v 
+   60  netstat -apn | grep "python"
+   61  ufw status
+   62  netstat -apn | grep "python"
+   63  ifconfig
+   64  iptables -A INPUT -p tcp --dport 15070 -j ACCEPT
+   65  netstat -apn | grep "python"
+   66  iptables -A INPUT -p tcp --dport 15070 -j ACCEPT
+   67  ufw status
+   68  ufw --h
+   69  iptables -L -v 
+   70  cat /etc/shadowsocks-r/config.json 
+   71  iptables -I INPUT -p tcp -m  tcp --dport 15007 -m  conntrack --ctstate NEW -j  ACCEPT
+   72  iptables -L -v 
+   73  cat /etc/shadowsocks-r/config.json 
+   74  iptables -I INPUT -p tcp -m  tcp --dport 15070 -m  conntrack --ctstate NEW -j  ACCEPT
+   75  iptables -I INPUT -p tcp -m  tcp --dport 25120 -m  conntrack --ctstate NEW -j  ACCEPT
+   76  iptables -L -v 
+   77  wget -c --referer=https://pan.baidu.com/s/1yOV01qyAYxXXIGSYQDXpmQ -O ./
+   78  wget --h
+   79  wget --help
+   80  wget --help | grep "ref"
+   81  wget -c --referer=https://pan.baidu.com/s/1yOV01qyAYxXXIGSYQDXpmQ -O ./
+   82  yum install docker -y 
+   83  systemctl docker status
+   84  systemctl status docker
+   85  systemctl start docker
+   86  systemctl status docker
+   87  docker pull centos
+   88  ls 
+   89  docker s 
+   90  docker [ps 
+   91  docker ps 
+   92  docker images
+   93  docker run -ti 9f38 /bin/bash
+   94  docker ps 
+   95  cd /var/lib/docker/volumes/
+   96  ls
+   97  cd 
+   98  ls
+   99  docker run -ti 9f38 /bin/bash
+  100  docker run -tid 9f38 /bin/bash
+  101  docker ps 
+  102  docker attach b9c71330711a
+  103  docker ps 
+  104  docker attach b9c71330711a
+  105  docker run -tid 9f38 /bin/bash
+  106  docker ps 
+  107  docker attach e80ece2c19a8 
+  108  docker ps 
+  109  docker start docker attach b9c71330711a
+  110  docker start b9c71330711a
+  111  docker [s 
+  112  docker attach b9c71330711a 
+  113  docker ps 
+  114  docker image
+  115  docker image 
+  116  docker image ls 
+  117  docker --h 
+  118  docker start c66f07f8ed46
+  119  docker ps 
+  120  docker attach b9c71330711a 
+  121  docker ps -a 
+  122  docker ps 
+  123  docker rm e80ece2c19a8
+  124  docker rm b9c71330711a 
+  125  docker rm 4f1987bf1fac
+  126  docker attach c66f07f8ed46
+  127  ls
+  128  docker cp c66f07f8ed46:/home/3120462492_Annn_day/my_s/book/sr.pdf ./ 
+  129  ls
+  130  mkdir github
+  131  cd github/
+  132  ls
+  133  git clone git@github.com:andayday/anday.git
+  134  cat ~/.ssh/known_hosts 
+  135  cd 
+  136  ls
+  137  ssh-keygen 
+  138  cat ~/.ssh/id_rsa.pub 
+  139  cd github/
+  140  ls
+  141  git clone git@github.com:andayday/anday.git
+  142  ls
+  143  cd anday/
+  144  ls
+  145  cd 
+  146  ls
+  147  pwd
+  148  cd - 
+  149  ls
+  150  cd 
+  151  ls
+  152  cd github/
+  153  ls
+  154  cd anday/
+  155  ls
+  156  cp /root/sr.pdf  /root/github/anday/
+  157  rm /root/sr.pdf
+  158  cd /root/github/anday/
+  159  ls
+  160  ls -lh 
+  161  tar -zcvf sr.tar.gz sr.pdf 
+  162  ls -l 
+  163  zip sr.zip sr.pdf 
+  164  yum install zip 
+  165  zip sr.zip sr.pdf 
+  166  ls -lh 
+  167  git add sr.tar.gz 
+  168  git commit -am "add sr"
+  169  git config --global user.name "tonyan"
+  170  git config --global user.email "xx"
+  171  git commit -am "add sr"
+  172  git push origin master 
+  173  ls
+  174  touch test
+  175  echo tes > test
+  176  git add test 
+  177  git commit -am "test"
+  178  git push origin master 
+  179  ls
+  180  git add test 
+  181  mv sr.pdf sr2.pdf
+  182  git commit -am "test"
+  183  git add test 
+  184  git commit -am "test"
+  185  mv sr.tar.gz ss.tar.gz
+  186  git push origin master 
+  187  docker ps 
+  188  docker attach c66f07f8ed46 
+  189  ls
+  190  pwd
+  191  ifconfig
+  192  pwd
+  193  ls
+  194  vim split.sh 
+  195  python split.sh 
+  196  vim split.sh 
+  197  docker attach c66f07f8ed46 
+  198  ls
+  199  split -b 30m sr2.pdf 
+  200  ls
+  201  git add xaa
+  202  git commit -am "test"
+  203  git push origin master 
+  204  free -h 
+  205  rm xa* -rf 
+  206  ls
+  207  split -b 10m sr2.pdf 
+  208  ls
+  209  git push origin master 
+  210  git rm ss.tar.gz 
+  211  git rm sr.zip
+  212  git --hh 
+  213  git --h
+  214  git --help
+  215  ls
+  216  rm sr.zip 
+  217  rm ss.tar.gz 
+  218  ls
+  219  git rm xaa
+  220  git push origin master 
+  221  git diff 
+  222  ls -l 
+  223  ls -lh 
+  224  ls
+  225  git rm xaa
+  226  git --cached
+  227  git show
+  228  git rm sr.tar.gz
+  229  ls
+  230  git --remote -v 
+  231  git remote -v 
+  232  cd ../
+  233  ls
+  234  mv anday/sr2.pdf ./ 
+  235  ls
+  236  rm anday/ -rf 
+  237  git clone git@github.com:andayday/anday.git 
+  238  ls
+  239  mv sr2.pdf anday/
+  240  cd anday/
+  241  ls
+  242  split -b 10m sr2.pdf 
+  243  ls
+  244  git add xaa 
+  245  git commit -am "test"
+  246  git push origin master 
+  247  ls
+  248  ls
+  249  cd github/
+  250  ls
+  251  cd anday/
+  252  ls
+  253  rm x* -rf 
+  254  ls
+  255  cd 
+  256  ls
+  257  cd 
+  258  docker attach c66f07f8ed46 
+  259  docker ps 
+  260  docker start c66f07f8ed46
+  261  docker attach c66f07f8ed46 
+  262  docker attach c66f07f8ed46 
+  263  ls
+  264  cd /
+  265  ls
+  266  cd /home/
+  267  ls
+  268  cd 
+  269  ls
+  270  cd  github/
+  271  ls
+  272  cd anday/
+  273  ls
+  274  pwd
+  275  scp -h 
+  276  ls
+  277  clear
+  278  wget https://bitbucket.org/wswp/code
+  279  cd co
+  280  ls
+  281  file code
+  282  vi code
+  283  wget https://bitbucket.org/wswp/code/src
+  284  ls
+  285  rm code 
+  286  rm src
+  287  wget  https://bitbucket.org/wswp/code/src/tip/chapter05/selenium_search.py
+  288  ls
+  289  cat  selenium_search.py 
+  290  ls
+  291  cd github/
+  292  ls
+  293  cd anday/
+  294  ls
+  295  ls -l 
+  296  docker ps 
+  297  set -o vi 
+  298  docker attach c66f07f8ed46 
+  299  ls
+  300  pwd
+  301  zsoelim 
+  302  fg 
+  303  docker ps 
+  304  docker attach c66f07f8ed46 
+  305  docker ps 
+  306  docker cp --h
+  307  docker cp --help
+  308  docker cp c66f07f8ed46:/root/github/anday/BaiduPCS-Go-v3.5.6-linux-amd64.zip ./ 
+  309  docker ps 
+  310  docker cp c66f07f8ed46:/root/github/anday/BaiduPCS-Go-v3.5.6-linux-amd64.zip ./ 
+  311  docker cp c66f07f8ed46:/root/BaiduPCS-Go-v3.5.6-linux-amd64.zip ./ 
+  312  ls
+  313  ls
+  314  cd 
+  315  ls
+  316  cd /home/
+  317  ls
+  318  cd 
+  319  ls
+  320  unzip BaiduPCS-Go-v3.5.6-linux-amd64.zip 
+  321  ls
+  322  cd BaiduPCS-Go-v3.5.6-linux-amd64
+  323  ls
+  324  ls -l 
+  325  systemctl status sshd
+  326  systemctl status d
+  327  docker info 
+  328  ls
+  329  mkdir oasis
+  330  cd oasis/
+  331  ls
+  332  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  333  ls
+  334  docker pull https://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  335  ls
+  336  vim /etc/docker/daemon.json 
+  337  docker ps 
+  338  history 
+  339  ls
+  340  docker ps 
+  341  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  342  systemctl restart docker
+  343  docker ps 
+  344  docker run -tid 9f38 /bin/bash
+  345  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  346  vim /etc/docker/
+  347  vim /etc/docker/daemon.json 
+  348  docker pull base_basicd003:20190904091059
+  349  ls 
+  350  vim /etc/docker/daemon.json 
+  351  systemctl restart docker
+  352  docker info 
+  353  docker pull base_basicd003:20190904091059
+  354  ls
+  355  vim /etc/docker/daemon.json 
+  356  ping h3crd-wlan1.chinacloudapp.cn
+  357  vim /etc/docker/daemon.json 
+  358  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  359  ls
+  360  vim /etc/docker/daemon.json 
+  361  ls
+  362  vim /etc/sysconfig/docker
+  363  cp /etc/sysconfig/docker /etc/sysconfig/docker_ori
+  364  vim /etc/sysconfig/docker
+  365  ls
+  366  pwd
+  367  vim /etc/sysconfig/docker
+  368  systemctl restart docker 
+  369  docker pull base_basicd003:20190904091059 
+  370  docker info 
+  371  vim /etc/sysconfig/docker
+  372  docker pull base_basicd003:20190904091059 
+  373  docker info 
+  374  systemctl restart docker 
+  375  docker pull base_basicd003:20190904091059 
+  376  docker info 
+  377  curl h3crd-wlan1.chinacloudapp.cn:500
+  378  curl h3crd-wlan1.chinacloudapp.cn:5000
+  379  curl h3crd-wlan1.chinacloudapp.c
+  380  curl h3crd-wlan1.chinacloudapp.cn
+  381  curl http://h3crd-wlan1.chinacloudapp.cn
+  382  docker pull base_basicd003:20190904091059 
+  383  docker pull https://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  384  docker pull http://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  385  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  386  ls
+  387  cd containers/
+  388  ls
+  389  cd ../
+  390  cd image/
+  391  ls
+  392  find ./ -name "base*"
+  393  tree 
+  394  yum install tree 
+  395  tree 
+  396  docker pull base_basicd003:20190904091059
+  397  docker list https://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:2019090409105
+  398  docker help 
+  399  docker list https://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:latest
+  400  docker pull https://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:latest
+  401  docker pull https://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/
+  402  docker list https://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:latest
+  403  docker pull h3crd-wlan1.chinacloudapp.cn:5000/build
+  404  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base
+  405  docker search 
+  406  docker search base
+  407  ls
+  408  mkdir test
+  409  cd test
+  410  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003
+  411  docker info 
+  412  ls
+  413  cd oasis/
+  414  ls
+  415  cd containers/
+  416  ls
+  417  cd ../
+  418  ls
+  419  cd ..
+  420  ls
+  421  rm oasis -rf 
+  422  ls
+  423  cd oasis/
+  424  ls
+  425  rm containers/
+  426  rm containers/ -rf 
+  427  cd containers/
+  428  ls
+  429  ls -la 
+  430  cd ../
+  431  ls
+  432  systemctl stop docker
+  433  rm containers/ -rf 
+  434  rm overlay2/
+  435  rm overlay2/ -rf 
+  436  ls
+  437  systemctl start docker
+  438  systemctl status docker
+  439  docker info 
+  440  docker pull  base
+  441  vim /etc/sysconfig/docker
+  442  docker pull oasis-rest-shop_basicd003:20190907171455
+  443  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003:20190907171455
+  444  ls
+  445  find ./ -name "*shop*"
+  446  ls -l ./overlay2/3bc4eea67497893842776eb499d74fa223d75e3252f7fa949e549e1bc8cb956c/diff/opt/app/repository/o2o/jars/oasis-rest-shop_rs.jar
+  447  ls -lh ./overlay2/3bc4eea67497893842776eb499d74fa223d75e3252f7fa949e549e1bc8cb956c/diff/opt/app/repository/o2o/jars/oasis-rest-shop_rs.jar
+  448  docker pull oasis-rest-shop_basicd003:20190907171455
+  449  vim /etc/sysconfig/docker
+  450  docker restart  docker
+  451  systemctl restart  docker
+  452  systemctl status   docker
+  453  vim /etc/sysconfig/docker
+  454  systemctl restart  docker
+  455  docker pull oasis-rest-shop_basicd003:20190907171455
+  456  docker pull http://h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003:20190907171455
+  457  vim /etc/sysconfig/docker
+  458  docker pull oasis-rest-shop_basicd003:20190907171455
+  459  systemctl restart  docker
+  460  systemctl status docker.service
+  461  docker info 
+  462  vim /etc/sysconfig/docker
+  463  docker info 
+  464  systemctl restart  docker
+  465  journalctl -xe
+  466  vim /etc/sysconfig/docker
+  467  systemctl restart  docker
+  468  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003:20190907171455
+  469  tree 
+  470  find ./ -name "*.tar"
+  471  ls
+  472  find ./ -name "*shop*"
+  473  cd oasis/
+  474  ls
+  475  docker info 
+  476  history
+  477  ping h3crd-wlan1.chinacloudapp.cn
+  478  ls
+  479  find ./ -name "*shop*"
+  480  docker ps 
+  481  docker images
+  482  docker save h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003:20190907171455  > oasis-rest-shop.tar
+  483  ls
+  484  ls -l 
+  485  ls -lh 
+  486  tar -zcvf oasis-rest-shop.tar.gz oasis-rest-shop.tar 
+  487  docker info 
+  488  docker version
+  489  ls -l 
+  490  ls
+  491  cd ..
+  492  ls
+  493  docker imags 
+  494  docker images 
+  495  docker rm 626da1f5c919 
+  496  docker rm 5000/buildonly/oasis-rest-shop_basicd003 
+  497  docker rm h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003 
+  498  docker rmi 626da1f5c919 
+  499  ls
+  500  cd oasis/
+  501  ls
+  502  cd ../
+  503  ls
+  504  docker images 
+  505  scp --h
+  506  ifconfig  
+  507  ls -l /root/oasis/
+  508  scp --h 
+  509  ls
+  510  cd 
+  511  cd github/
+  512  ls
+  513  cd  anday/
+  514  ls
+  515  git info 
+  516  git log 
+  517  cd 
+  518  ls
+  519  git lfs install 
+  520  mkdir lfs 
+  521  cd lfs
+  522  ls
+  523  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh
+  524  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | su bash
+  525  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | sudo bash
+  526  o yum install git-lfs
+  527   yum install git-lfs
+  528  git lfs install 
+  529  ls
+  530  cd 
+  531  ls
+  532  cd github/
+  533  ls
+  534  git info
+  535  cd anday/
+  536  ls
+  537  git log 
+  538  ls
+  539  rm sr2.pdf 
+  540  ls
+  541  git remote -v 
+  542  cp /root/oasis/oasis-rest-shop.tar.gz ./ 
+  543  ls
+  544  git add oasis-rest-shop.tar.gz 
+  545  git commit -am "add oasis oasis-rest-shop" 
+  546  git push 
+  547  git push origin master 
+  548  git lfs track *.gz
+  549  git add "oasis-rest-shop.tar.gz"
+  550  git commit -am "oasis rest shop"
+  551  git push origin master 
+  552  ls
+  553  mv oasis-rest-shop.tar.gz rest-shop.tar.gz 
+  554  git lfs track *.gz
+  555  git add rest-shop.tar.gz 
+  556  git commit -am "rest shop "
+  557  git push -u origin mater 
+  558  git push -u origin master 
+  559  git lfs install 
+  560  git reset 
+  561  git push origin master 
+  562  git log | more 
+  563  git reset fe44de37eb09fc00705879571bcd1aa9d27dd6ec 
+  564  ls
+  565  touch test 
+  566  echo 111 > test 
+  567  git add test 
+  568  git commit -am "test"
+  569  git push origin master 
+  570  ls
+  571  git lfs track *.gz
+  572  git add .gitattributes 
+  573  git commit -am "add attr"
+  574  git add  .git
+  575  git delete .git 
+  576  git status 
+  577  git add .gitattributes 
+  578  git commit -am "add attr"
+  579  git logs .gitad
+  580  git logs .gitattributes 
+  581  git log .gitattr
+  582  git log .gitattributes 
+  583  git add  rest-shop.tar.gz 
+  584  git commit -m "rest shop"
+  585  git push 
+  586  git remote -v 
+  587  ls
+  588  cd oasis/
+  589  ls
+  590  cd 
+  591  ls
+  592  cd  github/
+  593  ls
+  594  cd anday/
+  595  ls
+  596  git rm rest-shop.tar.gz 
+  597  ls
+  598  git commit -m "delete tar"
+  599  git push origin master 
+  600  cd /home/oas
+  601  ls
+  602  cd oasis/
+  603  ls
+  604  docker images 
+  605  docler [s 
+  606  docker ps 
+  607  ls
+  608  rm ./* -rf 
+  609  ls
+  610  docker images 
+  611  docker ps 
+  612  systemctl stop docker
+  613  rm ./* -rf 
+  614  ls
+  615  systemctl start docker
+  616  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/webapp_basicd003_temp:20190916092637
+  617  ls
+  618  docker ps 
+  619  docker images 
+  620  docker save h3crd-wlan1.chinacloudapp.cn:5000/buildonly/webapp_basicd003_temp:20190916092637 > webapp.tar.gz 
+  621  ls
+  622  cd /home/
+  623  ls
+  624  cd 
+  625  ls
+  626  cd github/
+  627  ls
+  628  cd ../
+  629  ls
+  630  c oasis/
+  631  ls
+  632  cd oasis/
+  633  ls
+  634  cd 
+  635  ls
+  636  cd github/
+  637  ls
+  638  cd anday/
+  639  ls
+  640  cp /root/oasis/webapp.tar.gz ./ 
+  641  ls
+  642  git add webapp.tar.gz 
+  643  git commit -am "webapp"
+  644  git push origin maste 
+  645  git push origin master
+  646  ls -lh 
+  647  g
+  648  free -h 
+  649  git config --global pack.threads 1 git
+  650  config --global pack.deltaCacheSize = 128m
+  651  git config --global pack.windowMemory 50m
+  652  git config --global pack.deltaCacheSize = 128m
+  653  git push origin master
+  654  git config --global pack.threads 1
+  655  git config --global pack.deltaCacheSize = 128m
+  656  git config --global pack.windowMemory 50m
+  657  git config list
+  658  git push origin master 
+  659  vim /root/.gitconfig 
+  660  git push origin master 
+  661  vim /root/.gitconfig 
+  662  clear
+  663  git config --global pack.windowMemory 1024m
+  664  git push origin master 
+  665  vim /root/.gitconfig 
+  666  git push origin master 
+  667  vim /root/.gitconfig 
+  668  clear
+  669  git config --global pack.windowMemory 1024m
+  670  git repack -adf 
+  671  vim /root/.gitconfig 
+  672  free -h 
+  673  vim /root/.gitconfig 
+  674  git repack -adf 
+  675  git --version
+  676  yum update git 
+  677  git --version
+  678  ls
+  679  vim /root/.gitconfig 
+  680  ls
+  681  git rm --cached webapp.tar.gz
+  682  ls
+  683  split -b 100m webapp.tar.gz 
+  684  ls
+  685  ls -l
+  686  vim /root/.gitconfig 
+  687  git add xaa xab xac xad  xae 
+  688  git rm --cached xaa xab xac xad  xae 
+  689  git add xaa 
+  690  git commit -am "webapp 1"
+  691  git push origin master 
+  692  git status 
+  693  git rm --cached xaa
+  694  git rm --cached  webapp.tar.gz 
+  695  git push origin master 
+  696  git log | more 
+  697  git reset acb7023039ed84cca5b643bbb4b5ffb61c28abeb
+  698  git push origin master 
+  699  git update 
+  700  git reset --hard-id acb7023039ed84cca5b643bbb4b5ffb61c28abeb
+  701  git reset --hard id acb7023039ed84cca5b643bbb4b5ffb61c28abeb
+  702  git reset --hard acb7023039ed84cca5b643bbb4b5ffb61c28abeb
+  703  git status 
+  704  vim test
+  705  git commit -am "modify test"
+  706  git push origin master 
+  707  git pull 
+  708  vim test 
+  709  git push origin master 
+  710  ls
+  711  git add xaa 
+  712  git commit -am "webapp 1"
+  713  git push origin master 
+  714  git add xab
+  715  git commit -am "webapp 2"
+  716  git add xac
+  717  git commit -am "webapp 3"
+  718  git push origin master 
+  719  git add xad
+  720  git add xae
+  721  ls 
+  722  git commit -am "webapp 4 5"
+  723  git push origin master 
+  724  ls
+  725  cd oasis
+  726  ls
+  727  cd 
+  728  ls
+  729  cd oasis 
+  730  ls
+  731  rm webapp.tar.gz 
+  732  cd ../
+  733  ls
+  734  systemctl stop docker
+  735  rm oasis/* -rf 
+  736  cd test
+  737  ls
+  738  cd ../
+  739  ls
+  740  rm test 
+  741  rm test  -rf 
+  742  ls
+  743  cd github/
+  744  ls
+  745  cd anday/
+  746  ls
+  747  git rm webapp.tar.gz 
+  748  git rm xa*
+  749  ls
+  750  rm webapp.tar.gz 
+  751  ls
+  752  git add ./*
+  753  git commit -am "rm webapp"
+  754  git push origin mater 
+  755  ls
+  756  cd 
+  757  ls
+  758  find ./ -name "*.pdf"
+  759  systemctl start docker
+  760  docker images 
+  761  cd  BaiduPCS-Go-v3.5.6-linux-amd64
+  762  ls
+  763  cd ../
+  764  ls
+  765  find / -name "*.pdf"
+  766  ls -lh /var/lib/docker/overlay2/185a267d7ae7e4a51c0f942ffc75f70c5049e3a31e87ea3043236af56a453e1c/diff/home/3120462492_Annn_day/my_s/book/sr.pdf
+  767  cp /var/lib/docker/overlay2/185a267d7ae7e4a51c0f942ffc75f70c5049e3a31e87ea3043236af56a453e1c/diff/home/3120462492_Annn_day/my_s/book/sr.pdf ./
+  768  cd ./ 
+  769  ls
+  770  mkdir pdf 
+  771  mv sr.pdf pdf 
+  772  cd pdf 
+  773  ls
+  774  cd ../
+  775  ls
+  776  tar -zcf  pdf.tar.gz pdf . 
+  777  ls
+  778  ls -l 
+  779  ls -lh 
+  780  cd pdf 
+  781  ls
+  782  ls -l 
+  783  ls -lh 
+  784  cd ../
+  785  ls
+  786  rm pdf.tar.gz 
+  787  tar -zcf pdf.tar.gz pdf 
+  788  ls -lh 
+  789  mkdir test
+  790  mv pdf.tar.gz pdf 
+  791  mv pdf/pdf.tar.gz test 
+  792  cd test
+  793  ls
+  794  split -b 100m pdf.tar.gz
+  795  ls
+  796  mv xa* ../github/anday/
+  797  cd ../github/anday/
+  798  ls
+  799  git add xaa xab xac xad 
+  800  git commit -am "pdf"
+  801  git push origin master 
+  802  git log 
+  803  git log  | more
+  804  git reset  --hard a8a5e1c22f6b7a544e4c3693172e39719958a951 
+  805  ls
+  806  cd ../
+  807  ls
+  808  cd ../
+  809  ls
+  810  cd test
+  811  ls
+  812  split -b 100m pdf.tar.gz
+  813  mv xa* ../github/anday/
+  814  cd ../github/anday/
+  815  ls
+  816  git add xaa 
+  817  git commit -am "pdf 1"
+  818  git push origin master 
+  819  git add xab
+  820  git commit -am "pdf 2"
+  821  git push origin master 
+  822  git add xac
+  823  git commit -am "pdf 3"
+  824  git push origin master 
+  825  git add xad
+  826  git commit -am "pdf 4 "
+  827  git push origin master 
+  828  ls 
+  829  netstat -apn | grep ss
+  830  netstat -apn | grep python
+  831  ping www.baidu.com
+  832  c
+  833  reboot
+  834  netstat -apn | grep python
+  835  ifconfig 
+  836  netstat -apn | grep python
+  837  ls
+  838  vim config.json 
+  839  cat config.json 
+  840  ls
+  841  vim shadowsocks-all.sh 
+  842  ls
+  843  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003:2019092515147
+  844  systemctl restart docker
+  845  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003:2019092515147
+  846  docker pull oasis-rest-shop_basicd003:20190907171455
+  847  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/base_basicd003:20190904091059
+  848  docker pull oasis-rest-shop_basicd003:20190907171455
+  849  docker pull h3crd-wlan1.chinacloudapp.cn:5000/buildonly/oasis-rest-shop_basicd003:201909251547
+  850  history 
+  851  history  > history 
